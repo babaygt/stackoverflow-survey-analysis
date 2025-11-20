@@ -57,10 +57,23 @@ uv sync
 
 ### Data Setup
 
-1. Download the Stack Overflow 2025 survey data from [survey.stackoverflow.co](https://survey.stackoverflow.co/)
-2. Place `survey_results_public.csv` and `survey_results_schema.csv` in the `data/` directory
+**Note:** The main survey data file (`survey_results_public.csv`) is not included in this repository due to its size (133 MB).
 
-## 🚀 Running the Analysis
+To run the analysis:
+
+1. Download the Stack Overflow 2025 survey data from [survey.stackoverflow.co](https://survey.stackoverflow.co/)
+2. Place `survey_results_public.csv` in the `data/` directory
+3. The schema file (`survey_results_schema.csv`) is already included in the repository
+
+Your `data/` directory should look like:
+
+```
+data/
+├── survey_results_public.csv    (download this - 133 MB)
+└── survey_results_schema.csv    (already included)
+```
+
+## Running the Analysis
 
 ### Basic Execution
 
